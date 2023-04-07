@@ -1,7 +1,7 @@
-FROM golang:1.14
+FROM golang:1.15
 
 LABEL Author = "NoobForAl"
-LABEL VERSION = "1.14"
+LABEL VERSION = "1.15"
 
 WORKDIR /app
 
