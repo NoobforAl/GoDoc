@@ -25,4 +25,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/godoc:1.19
+          tags: ${{ secrets.DOCKER_USERNAME }}/godoc:latest
