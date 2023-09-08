@@ -13,5 +13,5 @@ docker pull noobforal/godoc:latest
 and run server :
 
 ```shell
-docker run -d -p 80:2222 noobforal/godoc:latest
+docker run -d -p 80:80 noobforal/godoc:latest
 ```
