@@ -1,7 +1,7 @@
-FROM golang:1.20
+FROM golang:1.21
 
 LABEL Author = "NoobForAl"
-LABEL VERSION = "1.20"
+LABEL VERSION = "1.21"
 
 RUN go install golang.org/x/tools/cmd/godoc@latest
 
